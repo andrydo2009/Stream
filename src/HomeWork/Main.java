@@ -12,6 +12,8 @@ public class Main {
 
     public static void main(String[] args) {
 
+        // задача 1
+
         List<Integer> list = new ArrayList<> ();
         list.add ( 61 );
         list.add ( 23 );
@@ -28,6 +30,8 @@ public class Main {
                 (x , y) -> System.out.println ( " Min " + x + "\n" + " Max " + y ) );
         findMinMax ( emptyStream , Comparator.comparingInt ( i -> i ) ,
                 (x , y) -> System.out.println ( " Min " + x + "\n" + " Max " + y ) );
+
+        // задача 2
 
         evenNumeric ( list );
 
